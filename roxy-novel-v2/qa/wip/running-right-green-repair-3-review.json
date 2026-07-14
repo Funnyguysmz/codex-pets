@@ -1,0 +1,146 @@
+{
+  "ok": true,
+  "frames_root": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/qa/candidates/running-right-green-repair-3/frames",
+  "states": [
+    "running-right"
+  ],
+  "errors": [],
+  "warnings": [
+    "running-right used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+  ],
+  "rows": [
+    {
+      "state": "running-right",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "running-right used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/qa/candidates/running-right-green-repair-3/frames/running-right/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13870,
+          "bbox": [
+            15,
+            6,
+            175,
+            196
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 759
+        },
+        {
+          "index": 1,
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/qa/candidates/running-right-green-repair-3/frames/running-right/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13201,
+          "bbox": [
+            21,
+            5,
+            170,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 704
+        },
+        {
+          "index": 2,
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/qa/candidates/running-right-green-repair-3/frames/running-right/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12710,
+          "bbox": [
+            24,
+            7,
+            167,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 680
+        },
+        {
+          "index": 3,
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/qa/candidates/running-right-green-repair-3/frames/running-right/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13048,
+          "bbox": [
+            21,
+            7,
+            169,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 660
+        },
+        {
+          "index": 4,
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/qa/candidates/running-right-green-repair-3/frames/running-right/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13871,
+          "bbox": [
+            15,
+            7,
+            176,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 754
+        },
+        {
+          "index": 5,
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/qa/candidates/running-right-green-repair-3/frames/running-right/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12727,
+          "bbox": [
+            21,
+            7,
+            169,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 717
+        },
+        {
+          "index": 6,
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/qa/candidates/running-right-green-repair-3/frames/running-right/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13696,
+          "bbox": [
+            16,
+            8,
+            175,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 736
+        },
+        {
+          "index": 7,
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/qa/candidates/running-right-green-repair-3/frames/running-right/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13511,
+          "bbox": [
+            17,
+            10,
+            173,
+            198
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 726
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "source_pet_id": "roxy-novel",
+  "source_package": "/Users/mac/.codex/pets/roxy-novel",
+  "source_atlas_sha256": "50912170ca1581287a0c9c5cf8f4b4a79c8bbef9a2a5f47bb9cb3f72e62a41f7",
+  "target_pet_id": "roxy-novel-v2",
+  "target_display_name": "洛琪希 V2",
+  "policy": "Preserve the source package unchanged; build and install V2 as a separate pet."
+}

@@ -1,0 +1,7 @@
+Create one clean full-body reference sprite for Codex pet Roxy Novel.
+
+Pet identity: Roxy Migurdia from Mushoku Tensei, original light novel illustration visual direction: petite adult mage, long blue twin braids with delicate strands, violet-blue eyes, oversized weathered dark brown pointed witch hat, layered white-and-black mage robes with brown travel cloak, dark skirt, pale boots, slender carved wooden staff with blue crystal; nuanced ink linework, soft watercolor-like shading, refined fabric detail, reserved scholarly expression, full body..
+Style: Pet-safe sprite: compact full-body mascot, readable in a 192x208 cell, clear silhouette, simple face, stable palette/materials, and crisp edges for chroma-key extraction. Style `painterly`: Painterly mascot with simplified brush texture, readable forms, stable palette, and enough edge clarity for clean extraction. User style notes: Shirotaka-light-novel-illustration-inspired sensibility without copying a specific published image; compact chibi desktop pet, clean readable silhouette, no scene..
+
+
+Place a single centered pose on a perfectly flat pure magenta #FF00FF chroma-key background. Keep the full pet visible, compact, readable at 192x208, and easy to animate. Preserve approved reference identity cues. No scenery, text, borders, checkerboard transparency, shadows, glows, detached effects, or extra props. Keep #FF00FF and close colors out of the pet, props, highlights, and effects.

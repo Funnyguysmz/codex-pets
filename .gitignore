@@ -1,0 +1,20 @@
+.DS_Store
+
+# Root-level one-off audit and extraction scratch.
+/audit/
+/final-review/
+/repair-*/
+/audit_*.py
+/make_stress_sheets.py
+/idle-green-repair.md
+/running-right-green-repair.md
+/repair-review.json
+
+# Regenerable or superseded Hatch Pet intermediates.
+**/backups/
+**/frames/
+**/qa/candidates/
+
+# The current V2 final directory predates the active repair and is not a release.
+# Remove this rule only when a newly assembled atlas passes require-v2 validation.
+/roxy-novel-v2/final/

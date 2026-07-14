@@ -1,0 +1,142 @@
+{
+  "ok": true,
+  "frames_root": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/qa/rows/running-right-repair/frames",
+  "states": [
+    "running-right"
+  ],
+  "errors": [],
+  "warnings": [],
+  "rows": [
+    {
+      "state": "running-right",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/qa/rows/running-right-repair/frames/running-right/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17173,
+          "bbox": [
+            15,
+            5,
+            176,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 487
+        },
+        {
+          "index": 1,
+          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/qa/rows/running-right-repair/frames/running-right/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14370,
+          "bbox": [
+            29,
+            5,
+            162,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 363
+        },
+        {
+          "index": 2,
+          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/qa/rows/running-right-repair/frames/running-right/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12763,
+          "bbox": [
+            43,
+            5,
+            148,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 485
+        },
+        {
+          "index": 3,
+          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/qa/rows/running-right-repair/frames/running-right/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15888,
+          "bbox": [
+            24,
+            5,
+            167,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 418
+        },
+        {
+          "index": 4,
+          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/qa/rows/running-right-repair/frames/running-right/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13341,
+          "bbox": [
+            36,
+            5,
+            155,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 345
+        },
+        {
+          "index": 5,
+          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/qa/rows/running-right-repair/frames/running-right/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12378,
+          "bbox": [
+            45,
+            5,
+            147,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 361
+        },
+        {
+          "index": 6,
+          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/qa/rows/running-right-repair/frames/running-right/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15013,
+          "bbox": [
+            27,
+            5,
+            164,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 396
+        },
+        {
+          "index": 7,
+          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/qa/rows/running-right-repair/frames/running-right/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15582,
+          "bbox": [
+            27,
+            5,
+            165,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 407
+        }
+      ]
+    }
+  ]
+}

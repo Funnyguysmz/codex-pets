@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "spriteVersionNumber": 2,
+  "run_dir": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel",
+  "spritesheet": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/final/spritesheet-extended.webp",
+  "validation": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/final/validation-extended.json",
+  "chroma_despill": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/qa/chroma-despill-extended.json",
+  "contact_sheet": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/qa/contact-sheet-extended.png",
+  "direction_sheet": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/qa/look-directions.png",
+  "direction_semantics": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/qa/direction-semantics.json",
+  "blind_direction_validation": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/qa/direction-blind-validation.json",
+  "blind_review_resolution": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/qa/blind-review-resolution.json",
+  "continuity": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/qa/look-continuity.json",
+  "review": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/qa/review.json",
+  "package": "/Users/mac/.codex/pets/roxy-novel"
+}

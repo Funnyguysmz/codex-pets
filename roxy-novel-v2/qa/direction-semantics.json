@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "reviewed_by": "independent_final_visual_qa",
+  "directions": [
+    {"direction":"000","expected":"up","observed":"up","verdict":"pass","reason":"Raised face and eyes clearly read upward."},
+    {"direction":"022.5","expected":"up-right","observed":"up-right","verdict":"pass","reason":"Both upward and screen-right axes are readable."},
+    {"direction":"045","expected":"up-right","observed":"up-right","verdict":"pass","reason":"Both axes read correctly in labeled and blind review."},
+    {"direction":"067.5","expected":"up-right","observed":"up-right","verdict":"pass","reason":"Upward gaze approaches the right cardinal continuously."},
+    {"direction":"090","expected":"right","observed":"right","verdict":"pass","reason":"Unmistakable screen-right head and face profile."},
+    {"direction":"112.5","expected":"down-right","observed":"down-right","verdict":"warning","reason":"Labeled pose and vertical evidence pass; blind horizontal comparison reversed."},
+    {"direction":"135","expected":"down-right","observed":"down-right","verdict":"warning","reason":"Downward brim and face progression are correct; blind horizontal comparison reversed."},
+    {"direction":"157.5","expected":"down-right","observed":"down-right","verdict":"warning","reason":"Reads down-right approaching down; blind horizontal comparison reversed."},
+    {"direction":"180","expected":"down","observed":"down","verdict":"pass","reason":"Lowered head and eyelids unmistakably read down."},
+    {"direction":"202.5","expected":"down-left","observed":"down-left","verdict":"warning","reason":"Labeled pose and vertical evidence pass; blind horizontal comparison reversed."},
+    {"direction":"225","expected":"down-left","observed":"down-left","verdict":"warning","reason":"Labeled pose remains in the down-left quadrant; blind horizontal comparison reversed."},
+    {"direction":"247.5","expected":"down-left","observed":"down-left","verdict":"warning","reason":"Labeled pose approaches left within the correct quadrant; blind axes were ambiguous or reversed."},
+    {"direction":"270","expected":"left","observed":"left","verdict":"pass","reason":"Unmistakable screen-left head and face profile."},
+    {"direction":"292.5","expected":"up-left","observed":"up-left","verdict":"warning","reason":"Labeled pose and horizontal evidence pass; blind vertical comparison reversed."},
+    {"direction":"315","expected":"up-left","observed":"up-left","verdict":"pass","reason":"Both axes read correctly."},
+    {"direction":"337.5","expected":"up-left","observed":"up-left","verdict":"warning","reason":"Direction passes, but transition back to 000 has a visible scale and registration pop."}
+  ]
+}
