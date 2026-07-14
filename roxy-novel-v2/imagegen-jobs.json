@@ -58,13 +58,17 @@
     {
       "id": "running-right",
       "kind": "row-strip",
-      "status": "pending",
-      "prompt_file": "prompts/rows/running-right-green-cycle-repair-3.md",
+      "status": "complete",
+      "prompt_file": "prompts/rows/running-right-green-side-profile-natural-depth-10.md",
       "retry_prompt_file": "prompts/row-retries/running-right.md",
       "input_images": [
         {
-          "path": "qa/candidates/running-right-green-repair-2/source-pure-green.png",
-          "role": "primary full-row edit target; retain passed identity, scale stability, restored outer margins, and pure-green canvas"
+          "path": "references/brisk-walk-pose-guide.png",
+          "role": "hard eight-phase side-profile anatomical joint and timing guide; do not copy mannequin or tracking colors"
+        },
+        {
+          "path": "references/layout-guides/running-right.png",
+          "role": "required eight-slot spacing guide only; never copy its visible guide marks"
         },
         {
           "path": "references/canonical-base.png",
@@ -72,7 +76,7 @@
         },
         {
           "path": "frames/idle/00.png",
-          "role": "authoritative proportions, stature, and body volume"
+          "role": "hard authoritative petite head-to-body ratio, stature, and body volume"
         }
       ],
       "output_path": "decoded/running-right.png",
@@ -92,12 +96,15 @@
         "may_derive": false,
         "reason": "no deterministic derivation is configured for this state"
       },
-      "mirror_policy": {}
+      "mirror_policy": {},
+      "source_path": "/Users/mac/.codex/generated_images/019f60c4-c66b-78a2-bf71-683688c70ce5/exec-712bee51-b8c0-45b5-aede-3c2f2d58e863.png",
+      "completed_at": "2026-07-14T14:21:25Z",
+      "acceptance_note": "promoted as the best visible desktop-playback candidate after replacing hidden anatomical-leg identity proof with user-visible stride, crossing, proportion, and appearance review"
     },
     {
       "id": "running-left",
       "kind": "row-strip",
-      "status": "pending",
+      "status": "complete",
       "prompt_file": "prompts/rows/running-left.md",
       "retry_prompt_file": "prompts/row-retries/running-left.md",
       "input_images": [
@@ -146,6 +153,21 @@
         "derivation": "framewise-horizontal-mirror-preserving-order",
         "requires_explicit_approval": true,
         "fallback_generation_skill": "$imagegen"
+      },
+      "source_path": "decoded/running-right.png",
+      "derived_from": "running-right",
+      "completed_at": "2026-07-14T14:24:23.025393+00:00",
+      "metadata": {
+        "width": 2172,
+        "height": 724,
+        "mode": "RGBA",
+        "format": "PNG"
+      },
+      "mirror_decision": {
+        "approved": true,
+        "approved_at": "2026-07-14T14:24:23.025393+00:00",
+        "note": "Directional sprite symmetry is preferable here: framewise mirroring preserves the approved visible stride, exact Roxy proportions, identical canonical boots, cloak response, and scale while changing only travel direction.",
+        "transform": "framewise-horizontal-mirror-preserving-order"
       }
     },
     {
@@ -376,7 +398,7 @@
     {
       "id": "look-cardinals",
       "kind": "look-cardinal-strip",
-      "status": "pending",
+      "status": "complete",
       "prompt_file": "prompts/look-cardinals-v2-green.md",
       "repair_prompt_files": {
         "000": "prompts/look-anchor-repairs/000.md",
@@ -452,7 +474,7 @@
     {
       "id": "look-row-9",
       "kind": "look-row-strip",
-      "status": "pending",
+      "status": "complete",
       "prompt_file": "prompts/rows/look-row-9.md",
       "retry_prompt_file": "prompts/row-retries/look-row-9.md",
       "input_images": [
@@ -507,12 +529,15 @@
       },
       "coherent_synthesis_required": true,
       "individual_cell_packaging_allowed": false,
-      "packaging_eligible": true
+      "packaging_eligible": true,
+      "source_path": "decoded/look-row-9.png",
+      "completed_at": "2026-07-14T14:21:25Z",
+      "acceptance_note": "retained prior coherent row after cardinal hard-gate, labeled semantics, continuity, and final transparent-atlas review"
     },
     {
       "id": "look-row-10",
       "kind": "look-row-strip",
-      "status": "pending",
+      "status": "complete",
       "prompt_file": "prompts/rows/look-row-10.md",
       "retry_prompt_file": "prompts/row-retries/look-row-10.md",
       "input_images": [
@@ -573,7 +598,10 @@
       },
       "coherent_synthesis_required": true,
       "individual_cell_packaging_allowed": false,
-      "packaging_eligible": true
+      "packaging_eligible": true,
+      "source_path": "decoded/look-row-10.png",
+      "completed_at": "2026-07-14T14:21:25Z",
+      "acceptance_note": "retained prior coherent row after cardinal hard-gate, labeled semantics, continuity, and final transparent-atlas review"
     }
   ]
 }

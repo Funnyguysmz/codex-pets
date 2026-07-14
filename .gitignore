@@ -15,6 +15,16 @@
 **/frames/
 **/qa/candidates/
 
-# The current V2 final directory predates the active repair and is not a release.
-# Remove this rule only when a newly assembled atlas passes require-v2 validation.
-/roxy-novel-v2/final/
+# Local generation experiments retained on disk but excluded from release history.
+**/qa/wip/
+**/qa/previews-v2/
+**/qa/repairs/running-right-green-attempt-*.md
+**/prompts/poses/
+**/prompts/rows/gait-*.md
+**/prompts/rows/running-right-green-*.md
+**/prompts/rows/running-right-half-*.md
+**/references/gait-*.png
+**/references/eight-phase-depth-boot-guide.png
+**/final/spritesheet.png
+**/final/spritesheet.webp
+**/final/spritesheet-extended.png

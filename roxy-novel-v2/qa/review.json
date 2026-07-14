@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "frames_root": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames",
+  "frames_root": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames",
   "states": [
     "idle",
     "running-right",
@@ -13,7 +13,10 @@
     "review"
   ],
   "errors": [],
-  "warnings": [],
+  "warnings": [
+    "running-right used extraction method stable-slots; confirm motion playback remains stable and unclipped",
+    "running-left used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+  ],
   "rows": [
     {
       "state": "idle",
@@ -26,7 +29,7 @@
       "frames": [
         {
           "index": 0,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/idle/00.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/idle/00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 14410,
@@ -41,7 +44,7 @@
         },
         {
           "index": 1,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/idle/01.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/idle/01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 14408,
@@ -56,7 +59,7 @@
         },
         {
           "index": 2,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/idle/02.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/idle/02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 14359,
@@ -71,7 +74,7 @@
         },
         {
           "index": 3,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/idle/03.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/idle/03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 14288,
@@ -86,7 +89,7 @@
         },
         {
           "index": 4,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/idle/04.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/idle/04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 14281,
@@ -101,7 +104,7 @@
         },
         {
           "index": 5,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/idle/05.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/idle/05.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 14176,
@@ -120,36 +123,38 @@
       "state": "running-right",
       "expected_frames": 8,
       "actual_frames": 8,
-      "extraction_method": "components",
+      "extraction_method": "stable-slots",
       "ok": true,
       "errors": [],
-      "warnings": [],
+      "warnings": [
+        "running-right used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
       "frames": [
         {
           "index": 0,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/running-right/00.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/running-right/00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 15402,
+          "nontransparent_pixels": 11922,
           "bbox": [
-            16,
+            32,
             5,
-            175,
-            203
+            159,
+            199
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 0
         },
         {
           "index": 1,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/running-right/01.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/running-right/01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 14456,
+          "nontransparent_pixels": 11175,
           "bbox": [
-            23,
+            34,
             5,
-            169,
+            156,
             203
           ],
           "edge_pixels": 0,
@@ -157,14 +162,14 @@
         },
         {
           "index": 2,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/running-right/02.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/running-right/02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 14228,
+          "nontransparent_pixels": 11625,
           "bbox": [
-            23,
+            36,
             5,
-            168,
+            155,
             203
           ],
           "edge_pixels": 0,
@@ -172,14 +177,14 @@
         },
         {
           "index": 3,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/running-right/03.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/running-right/03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 14293,
+          "nontransparent_pixels": 11071,
           "bbox": [
-            18,
+            37,
             5,
-            174,
+            154,
             203
           ],
           "edge_pixels": 0,
@@ -187,29 +192,29 @@
         },
         {
           "index": 4,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/running-right/04.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/running-right/04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 14565,
+          "nontransparent_pixels": 11711,
           "bbox": [
-            21,
-            5,
-            170,
-            203
+            31,
+            6,
+            160,
+            201
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 0
         },
         {
           "index": 5,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/running-right/05.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/running-right/05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 13523,
+          "nontransparent_pixels": 10957,
           "bbox": [
-            22,
+            37,
             5,
-            170,
+            154,
             203
           ],
           "edge_pixels": 0,
@@ -217,14 +222,14 @@
         },
         {
           "index": 6,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/running-right/06.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/running-right/06.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 14249,
+          "nontransparent_pixels": 11283,
           "bbox": [
-            22,
-            5,
-            170,
+            36,
+            7,
+            155,
             203
           ],
           "edge_pixels": 0,
@@ -232,14 +237,14 @@
         },
         {
           "index": 7,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/running-right/07.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/running-right/07.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 14617,
+          "nontransparent_pixels": 10943,
           "bbox": [
-            21,
-            5,
-            171,
+            34,
+            9,
+            157,
             203
           ],
           "edge_pixels": 0,
@@ -251,130 +256,132 @@
       "state": "running-left",
       "expected_frames": 8,
       "actual_frames": 8,
-      "extraction_method": "components",
+      "extraction_method": "stable-slots",
       "ok": true,
       "errors": [],
-      "warnings": [],
+      "warnings": [
+        "running-left used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
       "frames": [
         {
           "index": 0,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/running-left/00.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/running-left/00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16293,
+          "nontransparent_pixels": 11857,
           "bbox": [
-            15,
+            34,
             5,
-            176,
-            203
+            156,
+            199
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 373
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 1,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/running-left/01.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/running-left/01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 15979,
+          "nontransparent_pixels": 11181,
           "bbox": [
-            17,
+            32,
             5,
-            175,
+            159,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 363
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 2,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/running-left/02.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/running-left/02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16083,
+          "nontransparent_pixels": 11587,
           "bbox": [
-            15,
+            36,
             5,
-            177,
+            155,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 392
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 3,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/running-left/03.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/running-left/03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 15260,
+          "nontransparent_pixels": 11035,
           "bbox": [
-            18,
+            38,
             5,
-            174,
+            154,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 396
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 4,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/running-left/04.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/running-left/04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 15968,
+          "nontransparent_pixels": 11617,
           "bbox": [
-            18,
-            5,
-            174,
-            203
+            34,
+            6,
+            158,
+            201
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 389
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 5,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/running-left/05.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/running-left/05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 15789,
+          "nontransparent_pixels": 11013,
           "bbox": [
-            16,
+            32,
             5,
-            176,
+            160,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 369
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 6,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/running-left/06.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/running-left/06.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16360,
+          "nontransparent_pixels": 11221,
           "bbox": [
-            15,
-            5,
-            176,
+            37,
+            7,
+            155,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 398
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 7,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/running-left/07.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/running-left/07.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16519,
+          "nontransparent_pixels": 10864,
           "bbox": [
-            15,
-            5,
-            176,
+            36,
+            9,
+            157,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 440
+          "chroma_adjacent_pixels": 0
         }
       ]
     },
@@ -389,7 +396,7 @@
       "frames": [
         {
           "index": 0,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/waving/00.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/waving/00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 17253,
@@ -400,11 +407,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 90
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 1,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/waving/01.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/waving/01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 17400,
@@ -415,11 +422,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 92
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 2,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/waving/02.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/waving/02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 17446,
@@ -430,11 +437,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 99
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 3,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/waving/03.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/waving/03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 17390,
@@ -445,7 +452,7 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 118
+          "chroma_adjacent_pixels": 0
         }
       ]
     },
@@ -460,7 +467,7 @@
       "frames": [
         {
           "index": 0,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/jumping/00.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/jumping/00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16838,
@@ -471,11 +478,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 98
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 1,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/jumping/01.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/jumping/01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16825,
@@ -486,11 +493,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 100
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 2,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/jumping/02.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/jumping/02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16891,
@@ -501,11 +508,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 86
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 3,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/jumping/03.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/jumping/03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 17045,
@@ -516,11 +523,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 90
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 4,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/jumping/04.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/jumping/04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16506,
@@ -531,7 +538,7 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 95
+          "chroma_adjacent_pixels": 0
         }
       ]
     },
@@ -546,7 +553,7 @@
       "frames": [
         {
           "index": 0,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/failed/00.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/failed/00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16487,
@@ -557,11 +564,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 213
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 1,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/failed/01.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/failed/01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15844,
@@ -572,11 +579,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 187
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 2,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/failed/02.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/failed/02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15691,
@@ -587,11 +594,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 215
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 3,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/failed/03.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/failed/03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16144,
@@ -602,11 +609,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 192
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 4,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/failed/04.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/failed/04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15777,
@@ -617,11 +624,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 238
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 5,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/failed/05.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/failed/05.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16138,
@@ -632,11 +639,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 219
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 6,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/failed/06.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/failed/06.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15787,
@@ -647,11 +654,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 252
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 7,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/failed/07.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/failed/07.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15712,
@@ -662,7 +669,7 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 173
+          "chroma_adjacent_pixels": 0
         }
       ]
     },
@@ -677,7 +684,7 @@
       "frames": [
         {
           "index": 0,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/waiting/00.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/waiting/00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16815,
@@ -688,11 +695,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 131
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 1,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/waiting/01.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/waiting/01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16466,
@@ -703,11 +710,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 168
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 2,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/waiting/02.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/waiting/02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16151,
@@ -718,11 +725,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 149
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 3,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/waiting/03.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/waiting/03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16252,
@@ -733,11 +740,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 170
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 4,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/waiting/04.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/waiting/04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16336,
@@ -748,11 +755,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 144
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 5,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/waiting/05.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/waiting/05.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15834,
@@ -763,7 +770,7 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 144
+          "chroma_adjacent_pixels": 0
         }
       ]
     },
@@ -778,7 +785,7 @@
       "frames": [
         {
           "index": 0,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/running/00.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/running/00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16691,
@@ -789,11 +796,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 126
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 1,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/running/01.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/running/01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16512,
@@ -804,11 +811,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 109
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 2,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/running/02.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/running/02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16509,
@@ -819,11 +826,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 113
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 3,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/running/03.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/running/03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16225,
@@ -834,11 +841,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 99
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 4,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/running/04.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/running/04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15548,
@@ -849,11 +856,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 113
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 5,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/running/05.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/running/05.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16487,
@@ -864,7 +871,7 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 127
+          "chroma_adjacent_pixels": 0
         }
       ]
     },
@@ -879,7 +886,7 @@
       "frames": [
         {
           "index": 0,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/review/00.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/review/00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16763,
@@ -890,11 +897,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 201
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 1,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/review/01.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/review/01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16431,
@@ -905,11 +912,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 189
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 2,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/review/02.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/review/02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16189,
@@ -920,11 +927,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 196
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 3,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/review/03.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/review/03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15944,
@@ -935,11 +942,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 208
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 4,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/review/04.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/review/04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16159,
@@ -950,11 +957,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 171
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 5,
-          "file": "/Users/mac/Documents/Codex/2026-07-12/new-chat/work/roxy-novel/frames/review/05.png",
+          "file": "/Users/mac/Documents/\u5ba0\u7269\u7f16\u8f91/roxy-novel-v2/frames/review/05.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16797,
@@ -965,7 +972,7 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 172
+          "chroma_adjacent_pixels": 0
         }
       ]
     }

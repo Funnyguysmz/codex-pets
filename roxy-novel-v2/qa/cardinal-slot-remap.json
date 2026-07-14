@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "operation": "swap complete 090 and 270 look cells",
+  "reason": "correct deterministic slot-mapping reversal; no art regenerated",
+  "atlas_png_sha256_before": "f7d423bf0efd881ab4214f415756481bf9f52c9c5d3ea276bd1501497dff8da7",
+  "atlas_png_sha256_after": "77e2da1e2968c15f000af3498da66f80f3859bd5d515395e9342edfa1ed3d781",
+  "atlas_webp_sha256_after": "437127c60defbb68c77aa4a457c4e05755cf4fbe56d3b99ddd5e9d342863f67b",
+  "blind_sheet_horizontal_4_panels_swapped": true
+}

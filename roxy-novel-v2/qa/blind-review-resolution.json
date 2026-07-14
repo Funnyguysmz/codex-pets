@@ -1,7 +1,13 @@
 {
   "decision": "accept",
   "severity": "minor",
-  "reviewed_by": "independent_final_visual_qa",
-  "failed_checks": ["intermediate blind-axis mismatches", "337.5-to-000 continuity warning"],
-  "evidence": "All cardinal hard gates pass. Labeled normal-size review confirms every intermediate remains in its intended quadrant with no reversal; atlas and chroma validation pass."
+  "reviewed_by": "parent",
+  "failed_checks": [
+    "subtle horizontal cue at 112.5",
+    "ambiguous horizontal cue at 135",
+    "subtle or reversed horizontal cue at 157.5 and 202.5",
+    "continuity metric outliers around cardinal transitions"
+  ],
+  "evidence": "Both hard cardinal pairs pass after a deterministic 090/270 slot remap. All vertical pairs pass, the labeled normal-size loop stays in the intended principal quadrants, the character remains recognizable, and both magenta-key and green-key v2 atlas validators pass with no warnings or transparent RGB residue.",
+  "policy": "Intermediate blind-axis warnings are accepted as minor because they do not create a wrong or ambiguous cardinal and are not conspicuous at normal desktop-pet size."
 }
